@@ -1,0 +1,27 @@
+=> Advantage of Python Programming Language 
+1. Easy Syntax 
+
+=> Install on ubuntu 
+tar -xvf Python-3.12.6.tar.xz 
+ls 
+cd Python-3.12 
+ls 
+./configure 
+make 
+sudo make install 
+
+=> Check Version 
+python3 --version 
+
+python3.12 --version 
+
+python3 
+ctl+d (or) exit()
+
+
+python3 l1sample.py 
+python l1sample.py 
+py l1sample.py 
+
+
+=> Comment (inline comment )
