@@ -79,4 +79,9 @@ print(type(colors))  # <class 'list'>
 ages = [20,25,30,35]
 print(ages) # [20,25,30,35] 
 
+print(type({"name":"aung aung"}))  # <class 'dict'> 
+# dict = dirctionary
+
 # 22AR
+
+
