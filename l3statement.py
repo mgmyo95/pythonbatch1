@@ -144,6 +144,10 @@ sayname()
 
 
 
+
+
+
+
 # name() simple function
 # name(val)  parameter function , regular function
 # name(val1,val2)
