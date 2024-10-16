@@ -39,8 +39,8 @@ print(text.capitalize()) # Hello friend
 print(text.title()) # Hello Friend 
 
 task = "HAVE TO GO"
-print(text.lower()) # hello friend 
-print(text.casefold()) # hello friend 
+print(task.lower()) # hello friend 
+print(task.casefold()) # hello friend 
 
 
 todo = "Have to Shop"
