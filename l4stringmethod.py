@@ -130,6 +130,12 @@ print(city.format("Mandalay")) # Hello Mandalay
 country = "Hello {} {}"
 print(country.format("Mandalay","Myanmar")) # Hello Mandalay Myanmar
 
+print("Hello my {}.are you {}!".format("Friend","Aung Aung")); #Hello my Friend.are you Aung Aung!
+
+val1 = "sister"
+val2 = "Su Su"
+print("Hello my {}.are you {}!".format(val1,val2)) # Hello my sister.are you Su SU!
+
 
 # dictionary 
 student = {"name":"Su Su"}
@@ -137,3 +143,13 @@ sayname = "Dear , {name}"
 print(sayname.format_map(student)) # Dear , Su Su 
 
 # 13SM
+
+
+message = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+countoflorem = message.count("Lorem")
+print(countoflorem)  # 1
+
+countofdolor = message.count("dolor")
+print(countofdolor) # 4
+
