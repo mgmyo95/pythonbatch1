@@ -104,8 +104,32 @@ else:
 
 
 
+initnum = 10 
+
+if initnum > 0:
+    print("The init number is positive")
+    if initnum % 2 == 0:
+        print("The init number is even")
+    else:
+        print("The init number is odd")
+else: 
+   print("The init number is not positive")
 
 
+# Ternary conditional operator 
+# true if condition else false
+
+initidx = 10 
+
+result = "Positive idx" if initidx > 0 else "Negative idx"
+print(result) # Position idx 
+
+result = "Even Idx" if initidx % 2 == 0 else "Odd Idx"
+print(result) # Even Idx 
+
+gamestatus = False 
+color = "Green Color" if gamestatus == False else "Red Color"
+print(color)
 
 
 #Comparison Operator 
